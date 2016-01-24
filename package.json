@@ -1,0 +1,29 @@
+{
+  "name": "coincart",
+  "version": "0.1.0",
+  "description": "Shopping cart library for bitcoin payments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fczuardi/cart.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "shopping",
+    "cart",
+    "shopping",
+    "cart",
+    "bip32",
+    "bip70"
+  ],
+  "author": "Fabricio C Zuardi",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fczuardi/cart/issues"
+  },
+  "homepage": "https://github.com/fczuardi/cart#readme"
+}
