@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Shopping cart library for bitcoin payments.",
   "main": "index.js",
+  "files": [
+    "COPYING",
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "nyc ava"
   },
