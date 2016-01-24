@@ -4,7 +4,7 @@
   "description": "Shopping cart library for bitcoin payments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc ava"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/fczuardi/cart/issues"
   },
-  "homepage": "https://github.com/fczuardi/cart#readme"
+  "homepage": "https://github.com/fczuardi/cart#readme",
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "nyc": "^5.3.0"
+  }
 }
