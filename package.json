@@ -9,7 +9,8 @@
     "README.md"
   ],
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   "homepage": "https://github.com/fczuardi/cart#readme",
   "devDependencies": {
     "ava": "^0.11.0",
+    "coveralls": "^2.11.6",
     "nyc": "^5.3.0"
   }
 }
